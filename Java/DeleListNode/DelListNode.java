@@ -22,6 +22,14 @@
 //
 //        你能尝试使用一趟扫描实现吗？
 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
 public class DelListNode {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy=new ListNode(0);
