@@ -2,7 +2,7 @@
  * 两数之和
  *
  * @author 春林
- * @create 2019-09-10-22:14
+ * create 2019-09-10-22:14
  */
 
 //给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
@@ -35,7 +35,7 @@ public class Questions {
         int a = 0;
 
         int[] nums = {2, 7, 7, 11, 15};
-        int[] Xresult = new int[2];
+        int[] Xresult;
         int target = 18;
 
         Xresult = twoSum(nums, target);
